@@ -1,0 +1,51 @@
+.container{
+   height: 100vh;
+  background-color: rgb(236, 158, 158);
+  width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+body{
+  background-color:rgb(208, 228, 226) ;
+}
+#spin{
+  height: 190px;
+  width: 180px;
+  background-color: rgb(5, 143, 134);
+  border: 2px solid rgb(226, 220, 220);
+  color: rgb(6, 33, 58);
+  font-size: 98px;
+  font-weight: 800;
+  position: absolute;
+  top: 110px;
+  bottom: 10px;
+  left: 100px;
+  text-align: center;
+  line-height: 150px;
+  border-radius: 30px;
+  border-color: rgb(2, 63, 59);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 22px;
+
+}
+
+button {
+  
+  background-color: rgb(82, 186, 179);
+  border-radius: 92px;
+  border: none;
+  border: 2px solid rgb(3, 53, 94);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  
+}
+button:hover {
+   transform: scale(0.9);
+  /* transform: rotateY(720deg);
+ transition: all 4s ease;
+} */
+background-color: rgb(3, 53, 94);
